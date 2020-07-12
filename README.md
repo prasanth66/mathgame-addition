@@ -1,6 +1,6 @@
 ### steps to run locally
 
-1.first install all the npm packages
+1.first install all the npm packages(  npm install nodemon)
 2.run this http://localhost:8000/ link in browser to start the appliciation
 
 
