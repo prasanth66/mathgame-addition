@@ -1,0 +1,37 @@
+
+
+#moving-owl{
+    height: 200px;
+    width: 200px;
+    border-radius: 100%;
+   
+}
+
+#runningimgs{
+    height: 200px;
+    width: 200px;
+   z-index: 10;
+   transition: 1s ease-in-out;
+   
+}
+
+#addition-container{
+    border: 2px solid greenyellow;
+    margin-top: 5px;
+    height: 150px;
+    box-shadow:5px 5px 50px 5px green;
+}
+
+#notification{
+    color: red;
+    font-size: 40px;
+}
+
+ input[type="text"]{
+
+    margin:20px 0;
+    padding: 15px;
+    border: 1px solid #b5b5b5;
+    outline: none;
+    font-size: large;
+}

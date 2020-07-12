@@ -1,0 +1,51 @@
+body{
+    background-image: url(/images/homebackground.jpg);
+    background-repeat: no-repeat;
+    background-size: cover  ;
+}
+
+
+
+#top-container{
+    text-align: center;
+}
+
+#owlImg{
+   height: 200px;
+   width: 250px;
+   border-radius: 50%;
+   box-shadow:5px 5px 50px 5px #888888;
+}
+
+#down-container{
+    height: 400px;
+    width: 400px;
+    /* border: 2px solid black; */
+   margin-left: 35%;
+   box-shadow: 5px 10px 8px 10px black;
+}
+#level-container{
+    text-align: center;
+}
+#level-container,p{
+padding: 30px;
+}
+
+#level-container p{
+    color: #888888;
+    font-size: larger;
+    border: 2px solid black;
+    box-shadow:5px 5px 40px 5px #888888;
+}
+#level-container a{
+    text-decoration: none;
+}
+
+#level-container p:hover{
+   background-image: url(/images/backgroundowl.jpg);
+   background-repeat: no-repeat;
+   background-size: cover  ;
+  color: black;
+  border: 2px solid #888888;
+  transform: scale(1.3);
+}

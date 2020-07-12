@@ -1,0 +1,47 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="/css/game.css">
+        
+    </head>
+    <body>
+        
+        <marquee loop='1'  scrollamount="2" behavior="scroll" direction="right"><img id="moving-owl" src="/images/movingowl.png" alt=""></marquee>
+        <img src="/images/running<%-animal%>.png" alt="" id="runningimgs">
+        <img style="width: 100%;height: 20%; margin-top: -130px;" src="/images/grass.png" alt="">
+    <div id="addition-container">
+      <form action=""  id="add" >
+        <p id="level" style="display: none;"><%-level%></p>
+         <div style="text-align: center;">
+            <%if(level==='beginner') {%>
+           
+                <input type="text" disabled   value="1"> <span>+</span>
+                <input type="text" disabled value="6"> <span>=</span>
+                <input type="text">
+                <span id="notification"></span>
+                <button type="submit" style="display: none;"onclick="calculate()"></button>
+                  <%}%>
+                  <%if(level==='intermediate') {%>
+                      
+                      <input type="text" disabled   value="11"> <span>+</span>
+                      <input type="text" disabled value="23"> <span>=</span>
+                      <input type="text">
+                      <span id="notification"></span>
+                      <button type="submit" style="display: none;"onclick="calculate()"></button>
+                      <%}%>
+                      <%if(level==='expert') {%>
+                          
+                          <input type="text" disabled  value="675" > <span>+</span>
+                          <input type="text" disabled value="986"> <span>=</span>
+                          <input type="text" ><br>
+                          <p id="notification"></p>
+                         
+                          <button  type="submit" style="display: none;"onclick="calculate()"></button>
+                          <%}%>
+                          
+         </div>
+      </form>
+    
+    </div>
+    <script src="/js/game.js"></script>
+    </body>
+</html>
